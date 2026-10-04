@@ -45,3 +45,27 @@ ollama pull llama3.1
 
 # Lightweight reasoning model for math and logic puzzles
 ollama pull deepseek-r1:1.5b
+
+# ==========================================
+# NEXUS AI — COMPLETE INSTALLATION SCRIPT
+# ==========================================
+
+# 1. Clone your repository (replace with your actual GitHub link)
+git clone https://github.com/YOUR_USERNAME/nexus-ai.git
+cd nexus-ai
+
+# 2. Create and activate your Python virtual environment
+python -m venv venv
+venv\Scripts\activate
+
+# 3. Install all required Python dependencies
+pip install streamlit psutil requests ollama pillow pypdf2 python-pptx
+
+# 4. Pull the required local AI models via Ollama
+ollama pull qwen2.5-coder:7b-instruct-q4_K_M
+ollama pull llava:7b
+ollama pull llama3.1
+ollama pull deepseek-r1:1.5b
+
+# 5. Launch the application
+streamlit run app.py
