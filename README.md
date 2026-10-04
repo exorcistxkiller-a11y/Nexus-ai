@@ -69,3 +69,4 @@ ollama pull deepseek-r1:1.5b
 
 # 5. Launch the application
 streamlit run app.py
+ Enjoy The Ai
