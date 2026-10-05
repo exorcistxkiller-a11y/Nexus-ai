@@ -1,4 +1,10 @@
 streamlit
-ollama
 psutil
 requests
+ollama
+Pillow
+PyPDF2
+python-pptx
+duckduckgo-search
+pandas
+tabulate
